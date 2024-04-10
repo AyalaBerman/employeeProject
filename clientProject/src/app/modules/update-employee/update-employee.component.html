@@ -1,0 +1,30 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="form"
+    style="display: flex; flex-direction: column;  width:40vw; max-height: 95vh; max-width: 95vw; justify-content: center;"
+    dir="rtl">
+    <mat-form-field appearance="fill" style="margin: 10px;">
+        <mat-label>שם פרטי</mat-label>
+        <input matInput type="text" name="firstName" required formControlName="firstName">
+    </mat-form-field>
+    <mat-form-field appearance="fill" style="margin: 10px;">
+        <mat-label>שם משפחה</mat-label>
+        <input matInput type="text" name="lastName" required formControlName="lastName">
+    </mat-form-field>
+    <mat-form-field appearance="fill" style="margin: 10px;">
+        <mat-label>מספר זהות</mat-label>
+        <input matInput type="text" name="identity" required formControlName="identity">
+    </mat-form-field>
+    <mat-form-field appearance="fill" style="margin: 10px;">
+        <mat-label>תאריך כניסה לעבודה</mat-label>
+        <input matInput [matDatepicker]="picker" name="startDate" required formControlName="startDate">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <div style="align-items:center; justify-content: center;">
+        <button [disabled]="!form.valid" mat-raised-button color="primary" (click)="showAddJob()" type="button"
+            style="margin: 10px; width:10vw;">הוסף משרה</button>
+        <add-job [employee]="data" *ngIf="status.isOpenJob"></add-job>
+        <button mat-raised-button color="primary" type="submit" [disabled]="!form.valid"
+            style="margin: 10px; width:10vw;">שמור עובד</button>
+    </div>
+</form>

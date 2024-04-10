@@ -1,0 +1,15 @@
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\bin\Debug\net6.0\MyProject.Service.deps.json
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\bin\Debug\net6.0\MyProject.Service.dll
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\bin\Debug\net6.0\MyProject.Service.pdb
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\bin\Debug\net6.0\MyProject.Core.dll
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\bin\Debug\net6.0\MyProject.Core.pdb
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.AssemblyInfo.cs
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.csproj.CopyComplete
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.dll
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\refint\MyProject.Service.dll
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\MyProject.Service.pdb
+C:\Users\user1\Desktop\פרקטיקום\MyProject\MyProject.Service\obj\Debug\net6.0\ref\MyProject.Service.dll

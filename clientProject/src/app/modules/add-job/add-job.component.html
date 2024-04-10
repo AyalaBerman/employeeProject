@@ -1,0 +1,24 @@
+<div style="display: flex; flex-direction: column; max-width: 95vw;" dir="rtl">
+    <mat-form-field style="margin: 10px;">
+        <mat-label>סוג משרה</mat-label>
+        <mat-select [(ngModel)]="job.name">
+            <mat-option *ngFor="let job of jobs" [value]="job">{{ job }}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+    <div>
+        <mat-form-field appearance="fill" style="margin: 10px;">
+            <mat-label>תאריך כניסה למשרה</mat-label>
+            <input matInput [matDatepicker]="picker" name="startDate" required [(ngModel)]="job.startJob"
+                (ngModelChange)="validDate(job.startJob)">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-error *ngIf="!dateValid" style="margin: 10px;">תאריך לא תקין</mat-error>
+    </div>
+    <mat-checkbox [checked]="job.isAdmin" [color]="job.isAdmin ? 'primary' : 'warn'" (change)="job.isAdmin = $event.checked" (click)="job.isAdmin = !job.isAdmin" style="margin: 10px;">ניהול</mat-checkbox>
+</div>
+
+
+<button mat-raised-button color="primary" (click)="onSaveJob()" style=" width:10vw; margin: 10px;">שמור משרה</button>
